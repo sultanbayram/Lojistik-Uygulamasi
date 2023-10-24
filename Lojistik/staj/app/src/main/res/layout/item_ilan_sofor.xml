@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtNereden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nereden: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtNereye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nereye: " />
+
+    <TextView
+        android:id="@+id/txtOlculer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ölçüler: " />
+
+    <TextView
+        android:id="@+id/txtFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fiyat: " />
+
+    <TextView
+        android:id="@+id/txtTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarih: " />
+
+    <Button
+        android:id="@+id/btnTalepEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Talep Et" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCFFF5"
+    android:padding="16dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="311dp" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:hint="E-posta"
+        android:background="#D1DBBD"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/sifreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#91AA9D"
+        android:hint="Şifre"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/girisButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giriş"
+        android:background="#193441"
+        android:textColor="#E1B5B5" />
+</LinearLayout>
+

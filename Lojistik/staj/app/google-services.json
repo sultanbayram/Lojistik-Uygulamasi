@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513105715489",
+    "project_id": "stajmor-60863",
+    "storage_bucket": "stajmor-60863.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513105715489:android:96b3b27198da8cd16c9e60",
+        "android_client_info": {
+          "package_name": "com.example.staj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513105715489-b0lhvqjs00rkbrr1iavnq314kfo6a0d4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSXwXZXRIPvqdAYCbaD4NNKdgDNf8vI8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513105715489-b0lhvqjs00rkbrr1iavnq314kfo6a0d4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

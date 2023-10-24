@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+    android:background="#FCFFF5"
+android:layout_height="match_parent"
+    tools:context=".IlanDuzenleActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".IlanDuzenleActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DUZENLE-PAYLAŞ"
+            android:background="#D1DBBD"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="110dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/txtView1"
+            android:layout_marginEnd="120dp"
+            android:background="#D1DBBD"
+            android:gravity="center"
+            android:text="Ilan Bilgileri "
+            android:textColor="#203040"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="193dp" />
+
+
+        <TextView
+            android:id="@+id/txtnereden"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@+id/txtView"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="7dp"
+            android:background="#ACBDB5"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtnereye"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@+id/txtnereden"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="7dp"
+            android:background="#91AA9D"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtolculer"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/txtnereye"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="#5D7078"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtfiyat"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_below="@id/txtolculer"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="#3E606F"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fiyatBilgiEditText"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_below="@id/txtfiyat"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="#193441"
+            android:hint="fiyat girin"
+            android:minHeight="38dp"
+            android:textColorHint="#203040"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/paylas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#193441"
+            android:onClick="paylas"
+            android:text="Kaydet"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
+
+
+

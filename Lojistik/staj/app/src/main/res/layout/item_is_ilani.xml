@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/isNereden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nereden: "
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/isNereye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nereye: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/isOlculer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ölçüler: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/isFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fiyat: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/isTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarih: "
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnTamamlandi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamamlandı"
+        android:textSize="16sp"/>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/detail_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="10dp"
+        card_view:contentPadding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/recycler_row_kullanici_emaili"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Kullanici emaili"
+                android:textColor="#22359A"
+                android:textSize="20sp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nereden"
+                android:textSize="18sp"
+                android:textColor="#22359A"
+                android:layout_below="@+id/recycler_row_kullanici_emaili"
+                android:layout_margin="5dp"
+                android:id="@+id/recycler_row_nereden"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nereye"
+                android:textSize="18sp"
+                android:textColor="#22359A"
+                android:layout_below="@+id/recycler_row_nereden"
+                android:layout_margin="5dp"
+                android:id="@+id/recycler_row_nereye"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="olculer"
+                android:textSize="18sp"
+                android:textColor="#22359A"
+                android:layout_below="@+id/recycler_row_nereye"
+                android:layout_margin="5dp"
+                android:id="@+id/recycler_row_olculer"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fiyat"
+                android:textSize="18sp"
+                android:textColor="#22359A"
+                android:layout_below="@+id/recycler_row_olculer"
+                android:layout_margin="5dp"
+                android:id="@+id/recycler_row_fiyat"/>
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>

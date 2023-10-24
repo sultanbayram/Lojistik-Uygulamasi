@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCFFF5"
+    android:padding="16dp"
+    tools:context=".SoforEkleActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Şoför Ekle"
+        android:background="#D1DBBD"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/skullaniciAdiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#ACBDB5"
+        android:hint="Kullanıcı Adı" />
+
+    <EditText
+        android:id="@+id/ssifreEditText"
+        android:layout_width="match_parent"
+        android:background="#91AA9D"
+        android:layout_height="42dp"
+        android:hint="Şifre"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/tcKimlikNoEditText"
+        android:layout_width="match_parent"
+        android:background="#91A0AA"
+        android:layout_height="42dp"
+        android:hint="TC Kimlik No"/>
+
+    <EditText
+        android:id="@+id/adSoyadEditText"
+        android:layout_width="match_parent"
+        android:background="#9194AA"
+        android:layout_height="42dp"
+        android:hint="Adı Soyadı"/>
+
+    <EditText
+        android:id="@+id/aracTipiEditText"
+        android:layout_width="match_parent"
+        android:background="#767B9F"
+        android:layout_height="42dp"
+        android:hint="Araç Tipi"/>
+
+    <EditText
+        android:id="@+id/plakaEditText"
+        android:layout_width="match_parent"
+        android:background="#666A88"
+        android:layout_height="42dp"
+        android:hint="Plaka"/>
+
+    <EditText
+        android:id="@+id/telefonEditText"
+        android:layout_width="match_parent"
+        android:background="#717F93"
+        android:layout_height="42dp"
+        android:hint="Telefon"/>
+
+    <Button
+        android:id="@+id/sekleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#193441"
+        android:textColor="#E1B5B5"
+        android:text="Ekle"/>
+</LinearLayout>

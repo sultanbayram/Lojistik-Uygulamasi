@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFFF5"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MusteriEkleActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Müşteri ekle"
+        android:background="#D1DBBD"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/mfirmaAdiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ACBDB5"
+        android:hint="Firma Adı" />
+
+    <EditText
+        android:id="@+id/mkullaniciAdiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#91AA9D"
+        android:hint="Kullanıcı Adı" />
+
+    <EditText
+        android:id="@+id/msifreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#5D7078"
+        android:hint="Şifre"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/mekleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mekleButton"
+        android:background="#193441"
+        android:textColor="#E1B5B5"
+        android:text="Ekle"/>
+</LinearLayout>

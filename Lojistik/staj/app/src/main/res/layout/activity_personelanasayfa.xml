@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCFFF5"
+    android:padding="16dp"
+    tools:context=".PersonelAnaSayfaActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="68dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/firma_logo" />
+
+    <Button
+        android:id="@+id/ilanVerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İlan Ver"
+        android:background="#D1DBBD"
+        android:onClick="ilanVerButtonClicked"/>
+
+    <Button
+        android:id="@+id/soforEkleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Şoför Ekle"
+        android:background="#ACBDB5"
+        android:onClick="soforEkleButtonClicked"/>
+
+    <Button
+        android:id="@+id/musteriEkleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Müşteri Ekle"
+        android:background="#91AA9D"
+        android:onClick="musteriEkleButtonClicked"/>
+
+    <Button
+        android:id="@+id/ilanlarimButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İlanlarım"
+        android:background="#5D7078"
+        android:onClick="ilanlarimButtonClicked"/>
+
+    <Button
+        android:id="@+id/musterilerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Müşteriler"
+        android:background="#3E606F"
+        android:onClick="musterilerButtonClicked"/>
+
+    <Button
+        android:id="@+id/soforlerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Şoförler"
+        android:background="#193441"
+        android:onClick="soforlerButtonClicked"/>
+    <Button
+        android:id="@+id/taleplerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Talepler"
+        android:background="#D1DBBD"
+        android:onClick="taleplerButtonClicked"/>
+    <Button
+        android:id="@+id/tamamlananButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tamamlanan işler"
+        android:background="#ACBDB5"
+        android:onClick="tamamlananlarButtonClicked"/>
+</LinearLayout>

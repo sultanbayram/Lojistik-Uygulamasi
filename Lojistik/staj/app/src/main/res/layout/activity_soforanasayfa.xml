@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCFFF5"
+    android:padding="16dp"
+    tools:context=".SoforAnaSayfaActivity">
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bilgilerim"
+        android:background="#D1DBBD"
+        android:onClick="soforbilgilerimButtonClicked"/>
+
+    <Button
+        android:id="@+id/milanlarimButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İlanlar "
+        android:background="#ACBDB5"
+        android:onClick="soforilanlarButtonClicked"/>
+    <Button
+        android:id="@+id/talep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="iş taleplerim"
+        android:background="#91AA9D"
+        android:onClick="sofortaleplerimButtonClicked"/>
+
+    <Button
+        android:id="@+id/islerim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5D7078"
+        android:onClick="soforislerimButtonClicked"
+        android:text="işlerim" />
+
+
+
+</LinearLayout>

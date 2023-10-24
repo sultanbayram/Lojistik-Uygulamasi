@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF7E0"
+    android:onClick="paylas"
+    android:orientation="vertical"
+    tools:context=".MusteriIlanVerActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:background="#EFF7E0"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="413dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="120dp"
+                android:background="#D1DBBD"
+                android:gravity="center"
+                android:text="Ilan Bilgilerini Giriniz"
+                android:textColor="#203040"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="193dp" />
+
+            <EditText
+                android:id="@+id/ilanNeredenEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ACBDB5"
+                android:hint="Nereden"
+                android:minHeight="48dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="253dp" />
+
+            <EditText
+                android:id="@+id/ilanNereyeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="4dp"
+                android:background="#91AA9D"
+                android:hint="Nereye"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
+                tools:layout_editor_absoluteY="343dp" />
+
+            <EditText
+                android:id="@+id/OlculerEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#5D7078"
+                android:hint="Olculeri Giriniz"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/ilanFiyatEditText"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#3E606F"
+                android:hint="Fiyat Giriniz"
+                android:minHeight="38dp"
+                android:textColorHint="#203040"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
+                tools:layout_editor_absoluteY="298dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#193441"
+                android:onClick="paylas"
+                android:padding="8dp"
+                android:paddingBottom="10dp"
+                android:text="Paylaş"
+                android:textColor="#E1B5B5"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="554dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

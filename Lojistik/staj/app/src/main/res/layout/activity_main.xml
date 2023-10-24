@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FCFFF5"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/personelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personel Giriş"
+        android:background="#D1DBBD"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/musteriButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#91AA9D"
+        android:text="Müşteri Giriş"
+        android:layout_below="@id/personelButton"/>
+
+    <Button
+        android:id="@+id/soforButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3E606F"
+        android:text="Şoför Giriş"
+        android:layout_below="@id/musteriButton"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/firma_logo" />
+</RelativeLayout>
+

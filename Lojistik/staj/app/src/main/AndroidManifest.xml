@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+        android:name=".PersonelGirisActivity"
+        android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".PersonelAnaSayfaActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".MusteriEkleActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".MusterilerActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".SoforEkleActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".SoforlerActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".IlanVerActivity"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+        <activity
+            android:name=".IlanDuzenleActivity"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+        <activity
+            android:name=".IlanlarimActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <activity
+        android:name=".MusteriGirisActivity"
+        android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".MusteriAnaSayfaActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".MusteriIlanVerActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".MusteriIlanlarimActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".SoforGirisActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".SoforAnaSayfaActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".SoforBilgilerimActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".SoforIlanlarActivity"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+        <activity
+            android:name=".SoforIslerimActivity"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+        <activity
+            android:name=".Talepler"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+        <activity
+            android:name=".TamamlananActivity"
+            android:theme="@style/Theme.MaterialComponents.Light" />
+
+    <activity
+        android:name=".SoforTaleplerimActivity"
+        android:theme="@style/Theme.MaterialComponents.Light" />
+</application>
+</manifest>

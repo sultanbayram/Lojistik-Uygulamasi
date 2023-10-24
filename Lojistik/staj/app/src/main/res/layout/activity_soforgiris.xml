@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFFF5"
+    android:padding="16dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="311dp" />
+
+    <EditText
+        android:id="@+id/soforemailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="#D1DBBD"
+        android:hint="E-posta"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/soforsifreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#91AA9D"
+        android:hint="Şifre"
+        android:inputType="textPassword" />
+
+<Button
+    android:id="@+id/soforgirisButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#193441"
+    android:text="Giriş"
+    android:textColor="#E1B5B5"/>
+</LinearLayout>

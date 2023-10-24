@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EFF7E0"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="120dp"
+        android:background="#D1DBBD"
+        android:gravity="center"
+        android:text="BİLGİLERİM"
+        android:textColor="#203040"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editAdSoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        android:background="#ACBDB5"
+        android:layout_below="@+id/textView"
+        android:hint="Ad Soyad" />
+
+    <EditText
+        android:id="@+id/editAracTipi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editAdSoyad"
+        android:layout_margin="16dp"
+
+        android:background="#91AA9D"
+        android:hint="Araç Tipi" />
+
+    <EditText
+        android:id="@+id/editPlaka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editAracTipi"
+        android:layout_margin="16dp"
+
+        android:background="#5D7078"
+        android:hint="Plaka" />
+
+    <EditText
+        android:id="@+id/editTcKimlikNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editPlaka"
+        android:layout_margin="16dp"
+
+        android:background="#3E606F"
+        android:hint="TC Kimlik No" />
+
+    <EditText
+        android:id="@+id/editTelefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTcKimlikNo"
+        android:background="#225E7A"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Telefon" />
+
+    <Button
+        android:id="@+id/btnKaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTelefon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#193441"
+        android:textColor="#E1B5B5"
+        android:text="Kaydet" />
+
+</RelativeLayout>
+
