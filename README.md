@@ -1,6 +1,6 @@
 # Lojistik-Uygulamasi
 
-Uygulama içerisinde bir lojistik firması için kullanıcı, müşteri ve şöfor girişi bulunmakta.
+Uygulama içerisinde bir lojistik firması için pesonel, müşteri ve şoför girişi bulunmakta.
 
 Personelin yapabileceği işlemler(Ana Sayfa):
 *İlan ver(müşterilerin paylaştığı ilanlar görüntülenip fiyat güncellemesi yapılıp paylaşılabilir.)
